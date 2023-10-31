@@ -24,9 +24,13 @@ while (exibirMenu)
 {
     Console.Clear();
     Console.WriteLine("Digite a sua opção:");
+    Console.WriteLine("--------------------------------------");
     Console.WriteLine("1 - Cadastrar veículo");
+    Console.WriteLine("--------------------------------------");
     Console.WriteLine("2 - Remover veículo");
+    Console.WriteLine("--------------------------------------");
     Console.WriteLine("3 - Listar veículos");
+    Console.WriteLine("--------------------------------------");
     Console.WriteLine("4 - Encerrar");
 
     switch (Console.ReadLine())
